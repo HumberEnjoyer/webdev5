@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <a class="left" href="/mainpage.html">
+            <span class="title">Music Hub</span>
+        </a>
+
+        <nav class="center">
+            <a href="/mainpage.html">Home</a>
+            <a style="border-bottom: 5px solid #ffc107;"href="/contact.html">Contact</a>
+            <a href="/Media.html">Media</a>
+        </nav>
+
+        <nav class="right">
+            <audio controls>
+                <source src="https://files.voicy.network/public/Content/Clips/Sound/59e6ea9f-2fb2-4945-8bf6-58450e0b0c57.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <video autoplay muted loop>
+                <source src="https://www.shutterstock.com/shutterstock/videos/1107494875/preview/stock-footage-musical-instrument-vinyl-lp-turntable.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+    </div>
+
+        <div class="view">
+            <div class="card-form">
+                <div class="card-title">Contact Me</div>
+                <div class="card-content">
+                    <form>
+                        <div class="form-group">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <label for="content">Message:</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                        </div>
+                        <button type="button" class="btn" onclick="alert('Form submitted!')">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>    
+    </main>
+
+    <footer>&copy; 2024 Music • Built with <a href="https://www.w3schools.com/html/" itemprop="url">Love</a><br>My Email: n01637285@humber.ca</footer>
+
+</body>
+</html>
